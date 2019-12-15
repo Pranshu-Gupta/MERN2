@@ -5,6 +5,6 @@ const router = express.Router();
 //@desc     Test route
 //@access   Public/Private
 
-router.get('/', (req,res)=> res.send('profile route'));
+router.get('/', (req, res) => res.send('profile route'));
 
 module.exports = router;
